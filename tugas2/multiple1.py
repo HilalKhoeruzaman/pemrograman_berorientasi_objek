@@ -17,7 +17,7 @@ class SantriPengabdi(Santri, Pengabdi):
     def tadzim(self):
         print(self.nama, "sedang tadzim")
 
-mhs_Pengabdi = SantriPengabdi("Hilal Khoeruzaman", "568", "Khodim Kyai")
-mhs_Pengabdi.ngaji() 
-mhs_Pengabdi.ngabdi()
-mhs_Pengabdi.tadzim() 
+santri_Pengabdi = SantriPengabdi("Hilal Khoeruzaman", "568", "Khodim Kyai")
+santri_Pengabdi.ngaji() 
+santri_Pengabdi.ngabdi()
+santri_Pengabdi.tadzim() 
